@@ -1,0 +1,9 @@
+{
+  "name": "com.echo360_downloader.host",
+  "description": "Echo360 Downloader native host",
+  "path": "C:\\Users\\NoMan\\Just in case Echo360\\native_host.bat",
+  "type": "stdio",
+  "allowed_origins": [
+    "chrome-extension://lhoanpfjgeppmmdoojhddjeajiopfgng/"
+  ]
+}

@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "Echo360 Downloader",
+  "version": "1.3",
+  "key": "MIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDggFvKurvPETyC+kGSabbWYkDpNI+rBJrV0LgAo9B5HGW5r/DammbWGYCLVIIGNY/UXpu64rse+Lkpz5nxRHg7OhOPiQ2Y+nEdC5ssli2X1hTe9t5c1NALwHDZF/A6qyowHUgncOmQcuTfFifr8YGJEUCzZe1K9D03ShMuHfYbluIcg1kgJh+dZRp/0BDKt28VtRJyDhnpQJ/zVei6axSoyw85nEXTNXBNTrMWtZvkLo0HLwyazQCKwp1l3+EvDy4cT7veglDRLfQajnbP9c5nPGWGQWz2VWgRuK84Tnmb8+LFynUrMcoZlv75eay+kpc6m/GLk89tyrtB1GtinZarAgMBAAECggEAZc1/Em7cFHlt9bzy+ChM+2lhov6tOXFknxm/HrcqJYldjbb9YrvKb0LwOf5P2e3282gVeUkwbkp+eLnFxpT0anMbBKczDdBfc7rcGntdYHF5VGQhEHqGfxW8do1257vPbTMSEaSPnWukYo9C+iixQ00aCF/rm2Ymzkgea3a1r+tBxmHIBZR9D+btu0nLTIYfM2OzpwX83nDOGd6PAtZXm3CnQmOYsDjA2ot5ocuEXlK7ykT9WrZDUrXQ/2tm9GkQkgPDz0PUImzpaiwFxdWgzsqbQGJxDx9ASoRk1Thb8MHpaT3gBU4KhcpVPdIZHqlazPxpXhXhwZp4zqJzImZD0QKBgQD3Ivfb70IxT0XZYbrzTOenZbaXx0gGeXBHcZTgqak6ey2WY9fHH4Jbo+XCKXJq67qlePeQauEScakTbDtSeDwUVUv1U651lorXRT8TcOk3LTAPFfBbxQk2nOTkP/D7B3hbu7Arwp8r2EPuZ1DZ9yB/r1Q16zqnenVZqCa1jJrAOwKBgQDojZH2oV2KQ/mE1OInLxd/5rh+N+7M4PfOjchG7ITKjusggUoqHv1Lnhem7KzoPhWfHEMKOXGMYRQY6qNGaa0OcMM2w1bvRIjQobLqq73u/0UrUhRMjV4QY3oPdvdF6kAu3i01te1onKcvod1NsldYZsae7IruF/ez98/Zp6wMUQKBgQDMDbNZhVPCIxIpSuhxuy4KqZD6ATEXJ23tj3q9hViVUN9zLT0czId14v3yMwamAb06o4bFV3o/IFnaD6NrlJsGruboyQ9jR8mbtTE/fBsT09u6mQK8wxO4ZBMZ4zG2E5TtKSts9mU2bnqofeXkEohi5QFDA9aKMjJytMRBYrbjwQKBgQDe4jCvTGE2j4eqQ86s93lyYFMaxcjeHA/lrAXz0+RBr1CzSrcmP6VMwCyzE8t0m2xlntSyC/REMxbr+paaedYfLPwslHPRxsHKE/BC8m+LjKViq7xA0o0A8Bagk8jS/Xyebtqty7vKs7mY8W4FdZQ5aeebkeJl6BrEJhLT7Nv8wQKBgCKPMlBN5Ia8iatTrBzMgEfdEcjD2Vp2Nm9QPJnHA15TIM7sozG3QGHn6V/uwMgXtsH3DQLiiXxlpPoxhmxGwk3/Wi3rNDIu8Z49mfOFN4Pld4hfY678X8nWlmQjWQt5lLl+xlcoN0C/55Z2QBao38vsStHmGpz4gMv0qVlIRAnW",
+  "permissions": [
+    "storage",
+    "nativeMessaging",
+    "webRequest",
+    "cookies",
+    "debugger"
+  ],
+  "host_permissions": [
+    "*://content.echo360.org/*",
+    "*://echo360.org/*"
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "Download Lecture",
+    "default_popup": "popup.html"
+  }
+}

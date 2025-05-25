@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+  <style>
+    body { font-family: system-ui; background:#f2f2f2; margin:0; padding:12px;
+           width:260px; box-sizing:border-box; }
+    input#filename, button#download { width:100%; font-size:14px; box-sizing:border-box; }
+    input#filename { padding:8px; margin-bottom:10px; border:1px solid #ccc; border-radius:6px; }
+    button#download { padding:10px; font-size:15px; border:none; border-radius:6px;
+                      background:#007bff; color:#fff; cursor:pointer; transition:background .2s; }
+    button#download:hover { background:#0056b3; }
+    #status { margin-top:12px; font-size:13px; color:#333; min-height:18px; word-break:break-word; }
+  </style>
+</head>
+<body>
+  <input id="filename" type="text" placeholder="Enter file name…" />
+  <button id="download">Download Lecture</button>
+  <div id="status"></div>
+  <script src="popup.js"></script>
+</body>
+</html>
