@@ -1,12 +1,12 @@
-# Echo360 Downloader
+# Echo360 Downloader Chrome Extension for Canvas
 
-A Chrome extension to grab MP4s and audio from Echo360 lectures, and downloads them straight to your device.
+A Chrome extension to grab MP4s and audio from Echo360 lectures - Canvas LMS Only- and downloads them straight to your device.
 
 I took this class in college that I really liked but didn't go to enough lecture for it,
 so after the semester was over I figured I would watch all the lectures on my own time.
 I asked my professor if they could enable the 'download' feature for the Echo360 lectures, which a lot of my other classes do.
 However, they said they don't feel like it and blah blah. So I said bet, and did a whole lot of sniffing around 
-to find out how to do it myself. With my creativity and passion to try new things, especially things that frustrate me, I used the directional support of ChatGPT
+to find out how to do it myself. With my creativity and passion to do the unthinkable, I used the directional support of ChatGPT
 to develop a Google Chrome Extension that downloads any Echo360 Lecture, with very minimal user setup. 
 
 Please, if you have questions OR it doesn't work for you or your school - Please create an issue on Github and I will address it ASAP. Thank you! And I hope this helps.. and works lol.
