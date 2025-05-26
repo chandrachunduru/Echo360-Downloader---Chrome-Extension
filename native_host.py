@@ -21,9 +21,14 @@ def main():
     cookie = msg.get("cookie", "")
     title  = msg.get("title",  "lecture")
 
-    outdir  = os.path.join(os.getcwd(), "downloads")
-    os.makedirs(outdir, exist_ok=True)
-    outpath = os.path.join(outdir, f"{title}.mp4")
+    # new Downloads folder for lectures
+    downloads_dir = os.path.join(
+        os.environ.get("USERPROFILE", os.getcwd()),
+        "Downloads",
+        "Echo360Lectures"
+    )
+    os.makedirs(downloads_dir, exist_ok=True)
+    outpath = os.path.join(downloads_dir, f"{title}.mp4")
 
     hdr = f"Cookie: {cookie}\r\nReferer: https://echo360.org/\r\n"
     cmd = [
@@ -37,7 +42,7 @@ def main():
 
     try:
         subprocess.run(cmd, check=True)
-        send({"status": "✅ Saved to downloads/"})
+        send({"status": f"✅ Saved to {downloads_dir}"})
     except Exception as e:
         send({"status": f"❌ {e}"})
 
