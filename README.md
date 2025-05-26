@@ -31,6 +31,12 @@ Please, if you have questions OR it doesn't work for you or your school - Please
 - FFmpeg in your PATH  
 - Chrome Developer Mode enabled (`chrome://extensions` → toggle **Developer mode**)
 
+### Option C: macOS / Linux installer
+
+1. In a terminal, at the repo root, run:
+   ```bash
+   ./install.sh
+
 ## Install
 1. In terminal, powershell - run the command below - without the quotes!
 
@@ -41,3 +47,4 @@ Please, if you have questions OR it doesn't work for you or your school - Please
 The extension should appear, reload your canvas page and from now on, you can go to any lecture and download it by clicking on the extension and naming it. 
 
 Have fun watching!
+
