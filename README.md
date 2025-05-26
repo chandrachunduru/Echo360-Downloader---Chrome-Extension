@@ -1,6 +1,6 @@
-# Echo360 Downloader Chrome Extension for Canvas
+# Echo360 Downloader Chrome Extension for Canvas - UMASS AMHERST
 
-A Chrome extension to grab MP4s and audio from Echo360 lectures - Canvas LMS Only- and downloads them straight to your device.
+A Chrome extension to grab MP4s and audio from Echo360 lectures - Canvas LMS Only- and downloads them straight to your device. This has only been tested on UMass Amherst Canvas page.
 
 I took this class in college that I really liked but didn't go to enough lecture for it,
 so after the semester was over I figured I would watch all the lectures on my own time.
